@@ -1,0 +1,234 @@
+.TH "clr" 3 "Thu Oct 3 2024" "Caller_docs" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+clr
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBcaller\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBstruct_to_string\fP (const struct \fBcaller\fP &abonent, const std::string &name)"
+.br
+.ti -1c
+.RI "std::string \fBstruct_to_string\fP (const struct \fBcaller\fP &abonent, const char *name)"
+.br
+.ti -1c
+.RI "std::string \fBstruct_to_string\fP (const struct \fBcaller\fP &abonent, const char *name, const size_t &length)"
+.br
+.ti -1c
+.RI "bool \fBis_number\fP (const std::string &number)"
+.br
+.ti -1c
+.RI "bool \fBis_phonenumber\fP (const std::string &token)"
+.br
+.ti -1c
+.RI "void \fBtokencheck\fP (std::istringstream &iss, std::string &token, const char c)"
+.br
+.ti -1c
+.RI "void \fBtokencheck\fP (std::istringstream &iss, std::string &token, const char c, const char *str)"
+.br
+.ti -1c
+.RI "struct \fBcaller\fP \fBstring_to_struct\fP (const std::string &text)"
+.br
+.ti -1c
+.RI "struct \fBcaller\fP \fBstring_to_struct\fP (const char *text)"
+.br
+.ti -1c
+.RI "struct \fBcaller\fP \fBstring_to_struct\fP (const char *text, const size_t &length)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "bool clr::is_number (const std::string & number)"
+Checks the number or not\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInumber\fP A number in the std::string format\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Boolean value is a number or not a number\&. 
+.RE
+.PP
+
+.SS "bool clr::is_phonenumber (const std::string & token)"
+Checks the phone number or not\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fItoken\fP A phone number in the std::string format\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Boolean value is a number or not a number\&. 
+.RE
+.PP
+
+.SS "struct \fBcaller\fP clr::string_to_struct (const char * text)"
+Сonverts an instance of the \fBclr::caller\fP type to an instance of the std::string type\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fItext\fP А string in the application/x-www-form-urlencoded format\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The original instance of \fBclr::caller\fP\&. 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If there is a data reading error\&. 
+.RE
+.PP
+
+.SS "struct \fBcaller\fP clr::string_to_struct (const char * text, const size_t & length)"
+Сonverts an instance of the \fBclr::caller\fP type to an instance of the std::string type\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fItext\fP А string in the application/x-www-form-urlencoded format\&. 
+.br
+\fIlength\fP Length of the array\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The original instance of \fBclr::caller\fP\&. 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If there is a data reading error\&. 
+.RE
+.PP
+
+.SS "struct \fBcaller\fP clr::string_to_struct (const std::string & text)"
+Сonverts an instance of the \fBclr::caller\fP type to an instance of the std::string type\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fItext\fP А string in the application/x-www-form-urlencoded format\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The original instance of \fBclr::caller\fP\&. 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If there is a data reading error\&. 
+.RE
+.PP
+
+.SS "std::string clr::struct_to_string (const struct \fBcaller\fP & abonent, const char * name)"
+Сonverts an instance of the \fBclr::caller\fP type to an instance of the std::string type\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIabonent\fP The original instance of \fBclr::caller\fP\&. 
+.br
+\fIname\fP The name of the record\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+А string in the application/x-www-form-urlencoded format\&. 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If there are empty lines in the \fBclr::caller\fP structure\&. 
+.RE
+.PP
+
+.SS "std::string clr::struct_to_string (const struct \fBcaller\fP & abonent, const char * name, const size_t & length)"
+Сonverts an instance of the \fBclr::caller\fP type to an instance of the std::string type\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIabonent\fP The original instance of \fBclr::caller\fP\&. 
+.br
+\fIname\fP The name of the record\&. 
+.br
+\fIlength\fP Length of the name array\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+А string in the application/x-www-form-urlencoded format\&. 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If there are empty lines in the \fBclr::caller\fP structure\&. 
+.RE
+.PP
+
+.SS "std::string clr::struct_to_string (const struct \fBcaller\fP & abonent, const std::string & name)"
+Сonverts an instance of the \fBclr::caller\fP type to an instance of the std::string type\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIabonent\fP The original instance of \fBclr::caller\fP\&. 
+.br
+\fIname\fP The name of the record\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+А string in the application/x-www-form-urlencoded format\&. 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If there are empty lines in the \fBclr::caller\fP structure\&. 
+.RE
+.PP
+
+.SS "void clr::tokencheck (std::istringstream & iss, std::string & token, const char c)"
+Checks the correctness of the string\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIiss\fP Input string stream\&. 
+.br
+\fItoken\fP Token string\&. 
+.br
+\fIc\fP Space character\&. 
+.RE
+.PP
+
+.SS "void clr::tokencheck (std::istringstream & iss, std::string & token, const char c, const char * str)"
+Checks the correctness of the string\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIiss\fP Input string stream\&. 
+.br
+\fItoken\fP Token string\&. 
+.br
+\fIc\fP Space character\&. 
+.br
+\fIstr\fP A string for comparison\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Caller_docs from the source code\&.

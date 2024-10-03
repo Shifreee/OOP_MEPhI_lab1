@@ -1,0 +1,16 @@
+INPUT                  = ./lib/caller
+OUTPUT_DIRECTORY       = docs
+PROJECT_NAME = Caller_docs
+PROJECT_BRIEF = ioioio
+GENERATE_LATEX         = YES
+GENERATE_HTML          = YES
+GENERATE_XML           = YES
+GENERATE_RTF           = YES
+GENERATE_MAN           = YES
+GENERATE_PERL          = YES
+GENERATE_TREEVIEW       = YES
+FULL_PATH_NAMES       = NO
+CLASS_DIAGRAMS         = YES
+HAVE_DOT               = YES
+DOT_PATH               = /usr/local/bin/dot
+EXTRACT_ALL            = YES

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="structclr_1_1caller" kind="struct"><name>clr::caller</name>
+    <member refid="structclr_1_1caller_1a38a1ca02182b2f4823a21d5df09420af" kind="variable"><name>name</name></member>
+    <member refid="structclr_1_1caller_1ae91f2deb90e0f4402f59767c52cdda6c" kind="variable"><name>number</name></member>
+    <member refid="structclr_1_1caller_1ab075288a750f56c4a4d8acdfd54f8f42" kind="variable"><name>lastcall</name></member>
+  </compound>
+  <compound refid="namespaceclr" kind="namespace"><name>clr</name>
+    <member refid="namespaceclr_1afd91f094dfa032878193cbd21eb1af4c" kind="function"><name>struct_to_string</name></member>
+    <member refid="namespaceclr_1abb6dc1fed1cfec1f7e7c7e25e5393d4d" kind="function"><name>struct_to_string</name></member>
+    <member refid="namespaceclr_1a062d2a302ef38a5347928f5dcc1f1d46" kind="function"><name>struct_to_string</name></member>
+    <member refid="namespaceclr_1aabfbf6102506c237563dd223c631afa3" kind="function"><name>is_number</name></member>
+    <member refid="namespaceclr_1ab8316da46ae5ec21d0e2345af7e38784" kind="function"><name>is_phonenumber</name></member>
+    <member refid="namespaceclr_1a35a950e370955f92e5919b3972b324cc" kind="function"><name>tokencheck</name></member>
+    <member refid="namespaceclr_1ad5b42046dc20afa60d8438fa02309533" kind="function"><name>tokencheck</name></member>
+    <member refid="namespaceclr_1a677b6775f7552b9eedd8e6d8c13995cd" kind="function"><name>string_to_struct</name></member>
+    <member refid="namespaceclr_1ad0790f218806e91852d406843fd9d4ec" kind="function"><name>string_to_struct</name></member>
+    <member refid="namespaceclr_1a3a1d2a38ba4ff7de9d88827140721fd6" kind="function"><name>string_to_struct</name></member>
+  </compound>
+  <compound refid="caller_8cpp" kind="file"><name>caller.cpp</name>
+  </compound>
+  <compound refid="caller_8hpp" kind="file"><name>caller.hpp</name>
+  </compound>
+  <compound refid="dir_0709717a8dad4e9abc30c8671a0ebee6" kind="dir"><name>caller</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceclr" kind="namespace" language="C++">
+    <compoundname>clr</compoundname>
+    <innerclass refid="structclr_1_1caller" prot="public">clr::caller</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceclr_1afd91f094dfa032878193cbd21eb1af4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string clr::struct_to_string</definition>
+        <argsstring>(const struct caller &amp;abonent, const std::string &amp;name)</argsstring>
+        <name>struct_to_string</name>
+        <param>
+          <type>const struct <ref refid="structclr_1_1caller" kindref="compound">caller</ref> &amp;</type>
+          <declname>abonent</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Сonverts an instance of the <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref> type to an instance of the std::string type. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">abonent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The original instance of <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the record. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>А string in the application/x-www-form-urlencoded format. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::invalid_argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If there are empty lines in the <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref> structure. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="13" column="17" bodyfile="lib/caller/caller.cpp" bodystart="13" bodyend="20" declfile="lib/caller/caller.hpp" declline="20" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceclr_1abb6dc1fed1cfec1f7e7c7e25e5393d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string clr::struct_to_string</definition>
+        <argsstring>(const struct caller &amp;abonent, const char *name)</argsstring>
+        <name>struct_to_string</name>
+        <param>
+          <type>const struct <ref refid="structclr_1_1caller" kindref="compound">caller</ref> &amp;</type>
+          <declname>abonent</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Сonverts an instance of the <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref> type to an instance of the std::string type. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">abonent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The original instance of <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the record. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>А string in the application/x-www-form-urlencoded format. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::invalid_argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If there are empty lines in the <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref> structure. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="29" column="17" bodyfile="lib/caller/caller.cpp" bodystart="29" bodyend="31" declfile="lib/caller/caller.hpp" declline="21" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceclr_1a062d2a302ef38a5347928f5dcc1f1d46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string clr::struct_to_string</definition>
+        <argsstring>(const struct caller &amp;abonent, const char *name, const size_t &amp;length)</argsstring>
+        <name>struct_to_string</name>
+        <param>
+          <type>const struct <ref refid="structclr_1_1caller" kindref="compound">caller</ref> &amp;</type>
+          <declname>abonent</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Сonverts an instance of the <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref> type to an instance of the std::string type. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">abonent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The original instance of <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the record. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Length of the name array. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>А string in the application/x-www-form-urlencoded format. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::invalid_argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If there are empty lines in the <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref> structure. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="41" column="17" bodyfile="lib/caller/caller.cpp" bodystart="41" bodyend="43" declfile="lib/caller/caller.hpp" declline="22" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceclr_1aabfbf6102506c237563dd223c631afa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool clr::is_number</definition>
+        <argsstring>(const std::string &amp;number)</argsstring>
+        <name>is_number</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the number or not. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A number in the std::string format. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean value is a number or not a number. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="50" column="10" bodyfile="lib/caller/caller.cpp" bodystart="50" bodyend="52" declfile="lib/caller/caller.hpp" declline="24" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceclr_1ab8316da46ae5ec21d0e2345af7e38784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool clr::is_phonenumber</definition>
+        <argsstring>(const std::string &amp;token)</argsstring>
+        <name>is_phonenumber</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the phone number or not. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A phone number in the std::string format. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean value is a number or not a number. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="59" column="10" bodyfile="lib/caller/caller.cpp" bodystart="59" bodyend="68" declfile="lib/caller/caller.hpp" declline="25" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceclr_1a35a950e370955f92e5919b3972b324cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void clr::tokencheck</definition>
+        <argsstring>(std::istringstream &amp;iss, std::string &amp;token, const char c)</argsstring>
+        <name>tokencheck</name>
+        <param>
+          <type>std::istringstream &amp;</type>
+          <declname>iss</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>const char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the correctness of the string. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">iss</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input string stream. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Token string. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Space character. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="76" column="10" bodyfile="lib/caller/caller.cpp" bodystart="76" bodyend="81" declfile="lib/caller/caller.hpp" declline="26" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceclr_1ad5b42046dc20afa60d8438fa02309533" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void clr::tokencheck</definition>
+        <argsstring>(std::istringstream &amp;iss, std::string &amp;token, const char c, const char *str)</argsstring>
+        <name>tokencheck</name>
+        <param>
+          <type>std::istringstream &amp;</type>
+          <declname>iss</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>const char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the correctness of the string. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">iss</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input string stream. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Token string. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Space character. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string for comparison. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="90" column="10" bodyfile="lib/caller/caller.cpp" bodystart="90" bodyend="95" declfile="lib/caller/caller.hpp" declline="27" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceclr_1a677b6775f7552b9eedd8e6d8c13995cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structclr_1_1caller" kindref="compound">caller</ref></type>
+        <definition>struct caller clr::string_to_struct</definition>
+        <argsstring>(const std::string &amp;text)</argsstring>
+        <name>string_to_struct</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Сonverts an instance of the <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref> type to an instance of the std::string type. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>А string in the application/x-www-form-urlencoded format. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The original instance of <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref>. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::invalid_argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If there is a data reading error. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="90" column="10" bodyfile="lib/caller/caller.cpp" bodystart="103" bodyend="127" declfile="lib/caller/caller.hpp" declline="27" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceclr_1ad0790f218806e91852d406843fd9d4ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structclr_1_1caller" kindref="compound">caller</ref></type>
+        <definition>struct caller clr::string_to_struct</definition>
+        <argsstring>(const char *text)</argsstring>
+        <name>string_to_struct</name>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Сonverts an instance of the <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref> type to an instance of the std::string type. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>А string in the application/x-www-form-urlencoded format. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The original instance of <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref>. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::invalid_argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If there is a data reading error. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="90" column="10" bodyfile="lib/caller/caller.cpp" bodystart="135" bodyend="137" declfile="lib/caller/caller.hpp" declline="27" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceclr_1a3a1d2a38ba4ff7de9d88827140721fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structclr_1_1caller" kindref="compound">caller</ref></type>
+        <definition>struct caller clr::string_to_struct</definition>
+        <argsstring>(const char *text, const size_t &amp;length)</argsstring>
+        <name>string_to_struct</name>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Сonverts an instance of the <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref> type to an instance of the std::string type. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>А string in the application/x-www-form-urlencoded format. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Length of the array. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The original instance of <ref refid="structclr_1_1caller" kindref="compound">clr::caller</ref>. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::invalid_argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If there is a data reading error. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.cpp" line="90" column="10" bodyfile="lib/caller/caller.cpp" bodystart="146" bodyend="148" declfile="lib/caller/caller.hpp" declline="27" declcolumn="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/caller/caller.cpp" line="5" column="1"/>
+  </compounddef>
+</doxygen>

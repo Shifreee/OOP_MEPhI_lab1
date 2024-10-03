@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabonent.a CMakeFiles/abonent.dir/abonent.cpp.o
+/usr/bin/ranlib libabonent.a

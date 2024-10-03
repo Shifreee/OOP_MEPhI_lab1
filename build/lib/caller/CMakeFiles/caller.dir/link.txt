@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcaller.a CMakeFiles/caller.dir/caller.cpp.o
+/usr/bin/ranlib libcaller.a

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structclr_1_1caller" kind="struct" language="C++" prot="public">
+    <compoundname>clr::caller</compoundname>
+    <includes refid="caller_8hpp" local="no">caller.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structclr_1_1caller_1a38a1ca02182b2f4823a21d5df09420af" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string clr::caller::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>A string of arbitrary length. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.hpp" line="12" column="21" bodyfile="lib/caller/caller.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structclr_1_1caller_1ae91f2deb90e0f4402f59767c52cdda6c" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string clr::caller::number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <briefdescription>
+<para>A string up to 16 characters long, which can include numbers and a &quot;+&quot; sign at the beginning. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.hpp" line="14" column="21" bodyfile="lib/caller/caller.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structclr_1_1caller_1ab075288a750f56c4a4d8acdfd54f8f42" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t clr::caller::lastcall</definition>
+        <argsstring></argsstring>
+        <name>lastcall</name>
+        <briefdescription>
+<para>An integer value corresponding to a timestamp in UNIXtime format. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/caller/caller.hpp" line="16" column="16" bodyfile="lib/caller/caller.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/caller/caller.hpp" line="10" column="5" bodyfile="lib/caller/caller.hpp" bodystart="10" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structclr_1_1caller_1ab075288a750f56c4a4d8acdfd54f8f42" prot="public" virt="non-virtual"><scope>clr::caller</scope><name>lastcall</name></member>
+      <member refid="structclr_1_1caller_1a38a1ca02182b2f4823a21d5df09420af" prot="public" virt="non-virtual"><scope>clr::caller</scope><name>name</name></member>
+      <member refid="structclr_1_1caller_1ae91f2deb90e0f4402f59767c52cdda6c" prot="public" virt="non-virtual"><scope>clr::caller</scope><name>number</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

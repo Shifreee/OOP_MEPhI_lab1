@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="caller_8hpp" kind="file" language="C++">
+    <compoundname>caller.hpp</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">sstream</includes>
+    <includedby refid="caller_8cpp" local="yes">caller.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>sstream</label>
+      </node>
+      <node id="1">
+        <label>caller.hpp</label>
+        <link refid="caller_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>caller.cpp</label>
+        <link refid="caller_8cpp"/>
+      </node>
+      <node id="1">
+        <label>caller.hpp</label>
+        <link refid="caller_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structclr_1_1caller" prot="public">clr::caller</innerclass>
+    <innernamespace refid="namespaceclr">clr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CALLER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CALLER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceclr" kindref="compound">clr</ref><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="structclr_1_1caller" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structclr_1_1caller" kindref="compound">caller</ref><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="structclr_1_1caller_1a38a1ca02182b2f4823a21d5df09420af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structclr_1_1caller_1a38a1ca02182b2f4823a21d5df09420af" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="14" refid="structclr_1_1caller_1ae91f2deb90e0f4402f59767c52cdda6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structclr_1_1caller_1ae91f2deb90e0f4402f59767c52cdda6c" kindref="member">number</ref>;<sp/></highlight></codeline>
+<codeline lineno="16" refid="structclr_1_1caller_1ab075288a750f56c4a4d8acdfd54f8f42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structclr_1_1caller_1ab075288a750f56c4a4d8acdfd54f8f42" kindref="member">lastcall</ref>;<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="namespaceclr_1afd91f094dfa032878193cbd21eb1af4c" kindref="member">struct_to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structclr_1_1caller" kindref="compound">caller</ref>&amp;<sp/>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="namespaceclr_1afd91f094dfa032878193cbd21eb1af4c" kindref="member">struct_to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structclr_1_1caller" kindref="compound">caller</ref>&amp;<sp/>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="namespaceclr_1afd91f094dfa032878193cbd21eb1af4c" kindref="member">struct_to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structclr_1_1caller" kindref="compound">caller</ref>&amp;<sp/>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceclr_1aabfbf6102506c237563dd223c631afa3" kindref="member">is_number</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceclr_1ab8316da46ae5ec21d0e2345af7e38784" kindref="member">is_phonenumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceclr_1a35a950e370955f92e5919b3972b324cc" kindref="member">tokencheck</ref>(std::istringstream&amp;,<sp/>std::string&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceclr_1a35a950e370955f92e5919b3972b324cc" kindref="member">tokencheck</ref>(std::istringstream&amp;,<sp/>std::string&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structclr_1_1caller" kindref="compound">caller</ref><sp/><ref refid="namespaceclr_1a677b6775f7552b9eedd8e6d8c13995cd" kindref="member">string_to_struct</ref>(const<sp/>std::string&amp;);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>struct<sp/><ref refid="structclr_1_1caller" kindref="compound">caller</ref><sp/><ref refid="namespaceclr_1a677b6775f7552b9eedd8e6d8c13995cd" kindref="member">string_to_struct</ref>(const<sp/>char*);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>struct<sp/><ref refid="structclr_1_1caller" kindref="compound">caller</ref><sp/><ref refid="namespaceclr_1a677b6775f7552b9eedd8e6d8c13995cd" kindref="member">string_to_struct</ref>(const<sp/>char*<sp/>,<sp/>const<sp/>size_t&amp;);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="lib/caller/caller.hpp"/>
+  </compounddef>
+</doxygen>

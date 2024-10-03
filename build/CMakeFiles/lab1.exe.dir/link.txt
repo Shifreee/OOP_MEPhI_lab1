@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra CMakeFiles/lab1.exe.dir/main.cpp.o -o lab1.exe  lib/caller/libcaller.a lib/menu/libmenu.a lib/caller/libcaller.a 

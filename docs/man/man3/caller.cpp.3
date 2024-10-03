@@ -1,0 +1,57 @@
+.TH "caller.cpp" 3 "Thu Oct 3 2024" "Caller_docs" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+caller.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'caller\&.hpp'\fP
+.br
+\fC#include <algorithm>\fP
+.br
+
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI " \fBclr\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBclr::struct_to_string\fP (const struct caller &abonent, const std::string &name)"
+.br
+.ti -1c
+.RI "std::string \fBclr::struct_to_string\fP (const struct caller &abonent, const char *name)"
+.br
+.ti -1c
+.RI "std::string \fBclr::struct_to_string\fP (const struct caller &abonent, const char *name, const size_t &length)"
+.br
+.ti -1c
+.RI "bool \fBclr::is_number\fP (const std::string &number)"
+.br
+.ti -1c
+.RI "bool \fBclr::is_phonenumber\fP (const std::string &token)"
+.br
+.ti -1c
+.RI "void \fBclr::tokencheck\fP (std::istringstream &iss, std::string &token, const char c)"
+.br
+.ti -1c
+.RI "void \fBclr::tokencheck\fP (std::istringstream &iss, std::string &token, const char c, const char *str)"
+.br
+.ti -1c
+.RI "struct caller \fBclr::string_to_struct\fP (const std::string &text)"
+.br
+.ti -1c
+.RI "struct caller \fBclr::string_to_struct\fP (const char *text)"
+.br
+.ti -1c
+.RI "struct caller \fBclr::string_to_struct\fP (const char *text, const size_t &length)"
+.br
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Caller_docs from the source code\&.
